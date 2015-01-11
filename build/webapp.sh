@@ -23,4 +23,4 @@ EOSQL
 
 echo "passenger_app_env $PASSENGER_APP_ENV ;" >> "$TEMP_FILE"
 
-echo '}' >> "$TEMP_FILE
+echo '}' >> "$TEMP_FILE"
