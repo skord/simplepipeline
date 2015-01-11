@@ -21,6 +21,6 @@ cat > "$TEMP_FILE" <<-EOSQL
 
 EOSQL
 
-echo "passenger_app_env $PASSENGER_APP_ENV ;" >> "$TEMP_FILE"
+echo "passenger_app_env $PASSENGER_APP_ENV;" >> "$TEMP_FILE"
 
 echo '}' >> "$TEMP_FILE"
